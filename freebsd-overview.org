@@ -1,0 +1,19 @@
+#+TITLE: Jails and FreeBSD Overview
+#+AUTHOR: Martin Gausby <martin@gausby.dk>
+
+* Stuff to touch upon
+** Introduction to the FreeBSD project
+ - Assume that people know about Linux.
+** Where to find documentation
+ - The FreeBSD Handbook
+** How to install stuff
+ - the pkg package manager
+ - the ports collection
+** Jails
+ - touch upon: ZFS, iocage
+*** ZFS
+ - introduction to ZFS
+ - create a snapshot, create a change in a jail, rollback and show the change is gone
+*** iocage
+ - introduction to iocage (a set of helpers for creating and managing jails)
+ - create a jail, give it a network interface, enter the jail and install a server; show that the server is available when the jail is up, etc.
